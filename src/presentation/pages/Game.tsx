@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { ShiritoriValidationService } from '../../domain/services/ShiritoriValidationService';
+import { GameService } from '../../domain/services/GameService';
 
 const Game: React.FC = () => {
   const navigate = useNavigate();
@@ -9,95 +11,45 @@ const Game: React.FC = () => {
   const [isGameStarted, setIsGameStarted] = useState(false);
   const [isGameOver, setIsGameOver] = useState(false);
 
-  const validateWord = (word: string): string | null => {
-    if (!word || word.trim().length === 0) {
-      return '単語を入力してください';
-    }
-
-    // ひらがな・カタカナのチェック
-    const validChars = /^[あ-んア-ン]+$/;
-    if (!validChars.test(word)) {
-      return 'ひらがなまたはカタカナで入力してください';
-    }
-
-    // 「ん」で終わる単語のチェック（ゲームオーバー）
-    if (word.endsWith('ん')) {
-      return 'GAME_OVER';
-    }
-
-    // 既に使用済みの単語チェック
-    if (words.includes(word)) {
-      return 'その単語は既に使用されています';
-    }
-
-    // しりとりルールチェック（2個目以降）
-    if (words.length > 0) {
-      const lastWord = words[words.length - 1];
-      const lastChar = lastWord.slice(-1);
-      const firstChar = word.charAt(0);
-      
-      // 濁点・半濁点の正規化
-      const normalizeChar = (char: string): string => {
-        const normalizationMap: { [key: string]: string } = {
-          'が': 'か', 'ぎ': 'き', 'ぐ': 'く', 'げ': 'け', 'ご': 'こ',
-          'ざ': 'さ', 'じ': 'し', 'ず': 'す', 'ぜ': 'せ', 'ぞ': 'そ',
-          'だ': 'た', 'ぢ': 'ち', 'づ': 'つ', 'で': 'て', 'ど': 'と',
-          'ば': 'は', 'び': 'ひ', 'ぶ': 'ふ', 'べ': 'へ', 'ぼ': 'ほ',
-          'ぱ': 'は', 'ぴ': 'ひ', 'ぷ': 'ふ', 'ぺ': 'へ', 'ぽ': 'ほ',
-          'ガ': 'カ', 'ギ': 'キ', 'グ': 'ク', 'ゲ': 'ケ', 'ゴ': 'コ',
-          'ザ': 'サ', 'ジ': 'シ', 'ズ': 'ス', 'ゼ': 'セ', 'ゾ': 'ソ',
-          'ダ': 'タ', 'ヂ': 'チ', 'ヅ': 'ツ', 'デ': 'テ', 'ド': 'ト',
-          'バ': 'ハ', 'ビ': 'ヒ', 'ブ': 'フ', 'ベ': 'ヘ', 'ボ': 'ホ',
-          'パ': 'ハ', 'ピ': 'ヒ', 'プ': 'フ', 'ペ': 'ヘ', 'ポ': 'ホ'
-        };
-        return normalizationMap[char] || char;
-      };
-
-      if (normalizeChar(lastChar) !== normalizeChar(firstChar)) {
-        return `「${lastChar}」から始まる単語を入力してください`;
-      }
-    }
-
-    return null;
-  };
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
 
-    const validationError = validateWord(currentWord);
-    if (validationError) {
-      if (validationError === 'GAME_OVER') {
-        setIsGameOver(true);
-        setWords([...words, currentWord]);
+    const validation = ShiritoriValidationService.validateWord(currentWord, words);
+    
+    if (!validation.isValid) {
+      if (validation.isGameOver) {
+        const newGameState = GameService.addWord(words, currentWord, true);
+        setWords(newGameState.words);
+        setIsGameOver(newGameState.isGameOver);
         
         // 3秒後にホームに戻る
         setTimeout(() => {
           navigate('/');
         }, 3000);
       } else {
-        setError(validationError);
+        setError(validation.error || '');
       }
       return;
     }
 
-    setWords([...words, currentWord]);
+    const newGameState = GameService.addWord(words, currentWord, false);
+    setWords(newGameState.words);
     setCurrentWord('');
-    setIsGameStarted(true);
+    setIsGameStarted(newGameState.isGameStarted);
   };
 
   const handleReset = () => {
-    setWords([]);
+    const newGameState = GameService.resetGame();
+    setWords(newGameState.words);
     setCurrentWord('');
     setError('');
-    setIsGameStarted(false);
-    setIsGameOver(false);
+    setIsGameStarted(newGameState.isGameStarted);
+    setIsGameOver(newGameState.isGameOver);
   };
 
   const getNextChar = (): string => {
-    if (words.length === 0) return '';
-    const lastWord = words[words.length - 1];
-    return lastWord.slice(-1);
+    return ShiritoriValidationService.getNextChar(words);
   };
 
   return (
