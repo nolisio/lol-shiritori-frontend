@@ -18,12 +18,21 @@ const Home: React.FC = () => {
           一人でしりとりを楽しもう！
         </p>
         
-        <button
-          onClick={handleStartGame}
-          className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          ゲームを始める
-        </button>
+        <div className="space-y-4">
+          <button
+            onClick={handleStartGame}
+            className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            ゲームを始める
+          </button>
+          
+          <button
+            onClick={() => navigate('/words')}
+            className="w-full px-6 py-3 bg-green-600 text-white rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500"
+          >
+            単語一覧を見る
+          </button>
+        </div>
         
         <div className="mt-8 text-left">
           <h2 className="text-lg font-semibold text-gray-800 mb-3">遊び方</h2>
