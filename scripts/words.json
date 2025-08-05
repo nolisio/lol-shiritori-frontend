@@ -1,0 +1,1028 @@
+[
+  {
+    "name": "アーゴット",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アーリ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アイバーン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アカリ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アクシャン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アジール",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アッシュ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アニー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アニビア",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アフェリオス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アムム",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アリスター",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "アンベッサ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "イブリン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "イラオイ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "イレリア",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ウーコン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ウディア",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "エイトロックス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "エコー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "エズリアル",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "エリス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "オーロラ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "オーン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "オラフ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "オリアナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "オレリオン・ソル",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "カ・サンテ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "カーサス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "カ＝ジックス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "カイ＝サ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "カサディン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "カシオペア",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "カタリナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "カミール",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "カリスタ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "カルマ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ガリオ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ガレン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ガングプランク",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "キヤナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "キンドレッド",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "クイン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "クレッド",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "グウェン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "グラガス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "グレイブス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ケイトリン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ケイル",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ケイン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ケネン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "コーキ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "コグ＝マウ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "サイオン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "サイラス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "サミーラ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ザイラ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ザック",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ザヤ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "シェン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "シャコ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "シン・ジャオ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "シンジド",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "シンドラ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "シヴァーナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "シヴィア",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ジェイス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ジグス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ジャーヴァン・フォー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ジャックス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ジャンナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ジリアン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ジン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ジンクス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "スウェイン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "スカーナー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "スモルダー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "スレッシュ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "セジュアニ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "セト",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "セナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "セラフィーン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ゼド",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ゼラス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ゼリ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ソナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ソラカ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ゾーイ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "タム・ケンチ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "タリック",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "タリヤ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "タロン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ダイアナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ダリウス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "チョ＝ガス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ツイステッド・フェイト",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ティーモ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "トゥイッチ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "トランドル",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "トリスターナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "トリンダメア",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ドクター・ムンド",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ドレイヴン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ナー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ナサス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ナフィーリ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ナミ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ニーコ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ニーラ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ニダリー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヌヌ＆ウィルンプ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ノーチラス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ノクターン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ハイマーディンガー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "バード",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "パイク",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "パンテオン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ビクター",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "フィオラ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "フィズ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "フィドルスティックス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "フェイ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ブライアー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ブラウム",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ブラッドミア",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ブランド",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ブリッツクランク",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヘカリム",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ベイガー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ベル＝ヴェス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ボリベア",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ポッピー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "マオカイ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "マスター・イー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "マルザハール",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "マルファイト",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ミス・フォーチュン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ミリオ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "メル",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "モルガナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "モルデカイザー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヤスオ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ユーミ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ユナラ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヨネ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヨリック",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ライズ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ラカン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ラックス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ラムス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ランブル",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "リー・シン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "リサンドラ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "リリア",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "リヴェン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ルシアン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ルブラン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ルル",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "レオナ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "レク＝サイ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "レナータ・グラスク",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "レネクトン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "レル",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "レンガー",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ワーウィック",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヴァイ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヴァルス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヴィエゴ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヴェイン",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヴェックス",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  },
+  {
+    "name": "ヴェル＝コズ",
+    "image": "",
+    "sound": "",
+    "type": "champion"
+  }
+]
