@@ -9,44 +9,115 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-6">
+    <div style={{ 
+      minHeight: '100vh', 
+      backgroundColor: '#f3f4f6', 
+      display: 'flex', 
+      alignItems: 'center', 
+      justifyContent: 'center' 
+    }}>
+      <div style={{ 
+        backgroundColor: 'white', 
+        borderRadius: '8px', 
+        boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)', 
+        padding: '2rem', 
+        maxWidth: '28rem', 
+        width: '100%', 
+        textAlign: 'center' 
+      }}>
+        <h1 style={{ 
+          fontSize: '2.25rem', 
+          fontWeight: 'bold', 
+          color: '#1f2937', 
+          marginBottom: '1.5rem' 
+        }}>
           しりとりゲーム
         </h1>
-        <p className="text-lg text-gray-600 mb-8">
+        <p style={{ 
+          fontSize: '1.125rem', 
+          color: '#6b7280', 
+          marginBottom: '2rem' 
+        }}>
           一人でしりとりを楽しもう！
         </p>
         
-        <div className="space-y-4">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
           <button
             onClick={handleStartGame}
-            className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+            style={{ 
+              width: '100%', 
+              padding: '0.75rem 1.5rem', 
+              backgroundColor: '#2563eb', 
+              color: 'white', 
+              borderRadius: '8px', 
+              fontSize: '1.125rem', 
+              fontWeight: '600', 
+              border: 'none', 
+              cursor: 'pointer',
+              transition: 'background-color 0.2s'
+            }}
+            onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#1d4ed8'}
+            onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#2563eb'}
           >
             ゲームを始める
           </button>
           
           <button
             onClick={() => navigate('/words')}
-            className="w-full px-6 py-3 bg-green-600 text-white rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500"
+            style={{ 
+              width: '100%', 
+              padding: '0.75rem 1.5rem', 
+              backgroundColor: '#059669', 
+              color: 'white', 
+              borderRadius: '8px', 
+              fontSize: '1.125rem', 
+              fontWeight: '600', 
+              border: 'none', 
+              cursor: 'pointer',
+              transition: 'background-color 0.2s'
+            }}
+            onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#047857'}
+            onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#059669'}
           >
             単語一覧を見る
           </button>
         </div>
         
-        <div className="mt-8 text-left">
-          <h2 className="text-lg font-semibold text-gray-800 mb-3">遊び方</h2>
-          <ul className="text-sm text-gray-600 space-y-2">
-            <li>• 前の単語の最後の文字から始まる単語を入力</li>
-            <li>• 「ん」で終わる単語は使用できません</li>
-            <li>• 同じ単語は一度しか使用できません</li>
-            <li>• ひらがな・カタカナで入力してください</li>
+        <div style={{ marginTop: '2rem', textAlign: 'left' }}>
+          <h2 style={{ 
+            fontSize: '1.125rem', 
+            fontWeight: '600', 
+            color: '#1f2937', 
+            marginBottom: '0.75rem' 
+          }}>遊び方</h2>
+          <ul style={{ 
+            fontSize: '0.875rem', 
+            color: '#6b7280', 
+            listStyle: 'none', 
+            padding: 0 
+          }}>
+            <li style={{ marginBottom: '0.5rem' }}>• 前の単語の最後の文字から始まる単語を入力</li>
+            <li style={{ marginBottom: '0.5rem' }}>• 「ん」で終わる単語は使用できません</li>
+            <li style={{ marginBottom: '0.5rem' }}>• 同じ単語は一度しか使用できません</li>
+            <li style={{ marginBottom: '0.5rem' }}>• ひらがな・カタカナで入力してください</li>
           </ul>
         </div>
         
-        <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-          <h3 className="font-semibold text-blue-800 mb-2">例</h3>
-          <div className="text-sm text-blue-700">
+        <div style={{ 
+          marginTop: '1.5rem', 
+          padding: '1rem', 
+          backgroundColor: '#dbeafe', 
+          borderRadius: '8px' 
+        }}>
+          <h3 style={{ 
+            fontWeight: '600', 
+            color: '#1e40af', 
+            marginBottom: '0.5rem' 
+          }}>例</h3>
+          <div style={{ 
+            fontSize: '0.875rem', 
+            color: '#1e40af' 
+          }}>
             りんご → ごりら → らくだ → だるま
           </div>
         </div>

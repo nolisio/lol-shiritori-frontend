@@ -1,14 +1,13 @@
-import { getAllWords } from '../../infrastructure/api/wordApi'
 import { Word } from '../entities/Word'
 
+// Prismaの代わりにMockを使用するため、このファイルは使用しない
+// 代わりにMockWordRepositoryを使用
+
 export const fetchWords = async (): Promise<Word[]> => {
-  const data = await getAllWords()
-  // Prismaの戻り値 → Entityへ変換
-  return data.map(word => new Word(
-    word.id,
-    word.name,
-    word.imageUrl,
-    word.soundUrl,
-    word.genre
-  ))
+  // モックデータを返す
+  return [
+    new Word(1, 'りんご', '', '', '食べ物'),
+    new Word(2, 'ごりら', '', '', '動物'),
+    new Word(3, 'らっぱ', '', '', '楽器'),
+  ]
 }
