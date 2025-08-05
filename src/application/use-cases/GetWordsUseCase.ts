@@ -1,10 +1,16 @@
 import { Word } from '../../domain/entities/Word';
-import { mockWordRepository } from '../../infrastructure/repositories/MockWordRepository';
+import { MockWordRepository } from '../../infrastructure/repositories/MockWordRepository';
 
 export class GetWordsUseCase {
+  private wordRepository: MockWordRepository;
+
+  constructor() {
+    this.wordRepository = new MockWordRepository();
+  }
+
   async execute(): Promise<Word[]> {
     try {
-      return await mockWordRepository.getAllWords();
+      return await this.wordRepository.getAllWords();
     } catch (error) {
       console.error('Failed to get words:', error);
       throw new Error('単語の取得に失敗しました');
